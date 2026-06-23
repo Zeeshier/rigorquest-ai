@@ -1,11 +1,11 @@
-# Deep Research Agent 🧠
+# RigorQuest AI 🧠
 
 
 ---
 
 ## Introduction 🌟
 
-The Deep Research Agent is a sophisticated multi-agent system designed to conduct comprehensive research on user-specified topics within a chosen domain. It leverages AI-driven tools, including the Meta LLaMA model, to generate targeted research questions, perform in-depth analysis, and compile findings into a professional report. This project demonstrates the system's production readiness, safety, and usability, making it an ideal tool for researchers, analysts, and professionals seeking data-driven insights.
+The RigorQuest AI is a sophisticated multi-agent system designed to conduct comprehensive research on user-specified topics within a chosen domain. It leverages AI-driven tools, including the Meta LLaMA model, to generate targeted research questions, perform in-depth analysis, and compile findings into a professional report. This project demonstrates the system's production readiness, safety, and usability, making it an ideal tool for researchers, analysts, and professionals seeking data-driven insights.
 
 ## Project Overview 📝
 
@@ -80,7 +80,7 @@ This structure follows best practices: separating concerns into source code, tes
 
 ## Flowchart 📈
 
-Below is a flowchart illustrating the workflow of the Deep Research Agent. It starts with user input, proceeds through question generation, research, and ends with report creation and storage.
+Below is a flowchart illustrating the workflow of the RigorQuest AI. It starts with user input, proceeds through question generation, research, and ends with report creation and storage.
 
 <img src="images\flowchart.png" alt="flowchart" height ="600" width="400" text-align:center  />
 
@@ -199,9 +199,9 @@ from guardrails.prompt_injection import detect_prompt_injection
 
 logger = get_logger("streamlit_ui")
 
-st.set_page_config(page_title="Deep Research Agent – M3", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="RigorQuest AI– M3", page_icon="🧠", layout="centered")
 
-st.title("🧠 Deep Research Agent – Production Ready")
+st.title("🧠 RigorQuest AI – Production Ready")
 st.markdown("Module-3 Capstone – Agentic AI Developer Certification")
 
 topic = st.text_input("Research topic", placeholder="e.g., AI in healthcare")
@@ -317,4 +317,4 @@ CMD ["streamlit", "run", "src/app.py", "--server.address=0.0.0.0"]
 
 ## Conclusion 🎉
 
-The Deep Research Agent is a production-ready, AI-driven system that streamlines research workflows while prioritizing safety and usability. It showcases advanced agentic AI capabilities, from multi-agent orchestration to secure integrations. Future enhancements could include support for more LLMs, advanced analytics visualizations, or multi-domain expansions. This capstone project highlights readiness for real-world applications in research and analysis. 🚀
+The RigorQuest AI is a production-ready, AI-driven system that streamlines research workflows while prioritizing safety and usability. It showcases advanced agentic AI capabilities, from multi-agent orchestration to secure integrations. Future enhancements could include support for more LLMs, advanced analytics visualizations, or multi-domain expansions. This capstone project highlights readiness for real-world applications in research and analysis. 🚀
