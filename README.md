@@ -9,7 +9,7 @@ The RigorQuest AI is a sophisticated multi-agent system designed to conduct comp
 
 ## Project Overview 📝
 
-The Deep Research Agent is a powerful, AI-powered tool for conducting deep research. It integrates the Meta LLaMA large language model with external tools like Tavily for web searches, ensuring accurate and up-to-date information. The system is built to be user-friendly, supporting iterative research refinement through a Streamlit-based interface. It automates the entire research pipeline, from question generation to report creation and storage in Google Docs.
+The RigorQuest AI is a powerful, AI-powered tool for conducting deep research. It integrates the Meta LLaMA large language model with external tools like Tavily for web searches, ensuring accurate and up-to-date information. The system is built to be user-friendly, supporting iterative research refinement through a Streamlit-based interface. It automates the entire research pipeline, from question generation to report creation and storage in Google Docs.
 
 <img src="images\screenshot.png" alt="screenshot" width="700" height ="370"  />
 
